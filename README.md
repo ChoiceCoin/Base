@@ -1,6 +1,17 @@
 # Base
 Repository for building Choice software on Base.
 
+# Project Goals
+
+1. Launch Choice Coin asset on Base.
+2. Build Application with choice capability.
+
+# Application Functional Requirements
+
+1. Allow users to connect via MetaMask and Rabby.
+2. Present users with a binary choice, where one choice is correct.
+3. Have mechanism for rewarding the users that make the correct choice.
+
 # Base Information
 
 [Base Website](https://www.base.org/)
