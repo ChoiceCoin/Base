@@ -25,3 +25,5 @@ Repository for building Choice software on Base.
 # Wallet Information
 
 [Rabby Wallet](https://rabby.io/)
+[Metamask](https://metamask.io/) 
+
