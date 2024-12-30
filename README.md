@@ -14,9 +14,9 @@ Repository for building Choice software on Base.
 
 # Build Process
 1. Create base react app.
-2. Add wallet connection.
-3. Add front-end UI.
-4. Build back-end infra.
+2. Add front-end UI.
+3. Build back-end infra.
+4. Add wallet connection.
 5. Connect front-end and back-end within the react app.
 
 # Base Information
