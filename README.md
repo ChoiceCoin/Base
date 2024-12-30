@@ -10,7 +10,7 @@ Repository for building Choice software on Base.
 
 1. Allow users to connect via MetaMask and Rabby.
 2. Present users with a binary choice, where one choice is correct.
-3. Have mechanism for rewarding the users that make the correct choice.
+3. Have a mechanism for rewarding the users that make the correct choice.
 
 # Base Information
 
@@ -22,3 +22,6 @@ Repository for building Choice software on Base.
 
 [Base GitHub](https://github.com/base-org)
 
+# Wallet Information
+
+[Rabby Wallet](https://rabby.io/)
