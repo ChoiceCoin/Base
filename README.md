@@ -12,6 +12,13 @@ Repository for building Choice software on Base.
 2. Present users with a binary choice, where one choice is correct.
 3. Have a mechanism for rewarding the users that make the correct choice.
 
+# Build Process
+1. Create base react app.
+2. Add wallet connection.
+3. Add front-end UI.
+4. Build back-end infra.
+5. Connect front-end and back-end within the react app.
+
 # Base Information
 
 [Base Website](https://www.base.org/)
