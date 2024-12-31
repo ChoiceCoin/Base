@@ -1,5 +1,5 @@
 # Base
-Repository for building Choice software on Base.
+Repository for building Choice software on Base. [Project Roadmap.](https://medium.com/@ChoiceCoin/choice-on-base-2025-roadmap-5b509262ba0f)
 
 # Project Goals
 
