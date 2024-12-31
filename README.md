@@ -1,6 +1,9 @@
 # Base
 Repository for building Choice software on Base. [Project Roadmap.](https://medium.com/@ChoiceCoin/choice-on-base-2025-roadmap-5b509262ba0f)
 
+# Choice on Base
+[Token Contract on Basescan](https://basescan.org/token/0x72b423d98d98d509e66e9c565873c3e63ee4c7ab)
+
 # Project Goals
 
 1. Launch Choice Coin asset on Base.
