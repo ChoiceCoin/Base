@@ -1,30 +1,20 @@
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
-contract SimpleGame {
-    IERC20 public choiceToken;
-    mapping(address => uint) public ethBalances;
+contract GameContract {
+    IERC20 public myToken;
 
-    constructor(address _choiceTokenAddress) {
-        choiceToken = IERC20(_choiceTokenAddress);
+    constructor(address _myTokenAddress) {
+        myToken = IERC20(_myTokenAddress);
     }
 
-    // Payable function to accept ETH
-    function fundWithETH() public payable {
-        ethBalances[msg.sender] += msg.value;
-    }
+    receive() external payable {}
 
-    function playGame() public {
-        require(choiceToken.allowance(msg.sender, address(this)) >= 1e18, "Not enough allowance for 1 Choice token");
-        require(choiceToken.transferFrom(msg.sender, address(this), 1e18), "Transfer failed");
-        
+    function playGame() external {
+        require(myToken.balanceOf(address(this)) >= 1 * 10**18, "Must transfer exactly 1 MyToken");
+        require(myToken.transfer(msg.sender, 2 * 10**18), "Transfer failed");
     }
-
-    // Function to return the Choice token address for setting up MetaMask
-    function getChoiceTokenAddress() public view returns (address) {
-        return address(choiceToken);
-    }
-    
 }
