@@ -20,11 +20,6 @@ contract SimpleGame {
         require(choiceToken.allowance(msg.sender, address(this)) >= 1e18, "Not enough allowance for 1 Choice token");
         require(choiceToken.transferFrom(msg.sender, address(this), 1e18), "Transfer failed");
         
-        // Assuming you want to check if the sender has funded with ETH too
-        require(ethBalances[msg.sender] > 0, "Must fund with ETH before playing");
-        
-        require(choiceToken.transfer(msg.sender, 2e18), "Return transfer failed");
-        // Here you might want to clear or adjust the ETH balance if you're using it for something in the game
     }
 
     // Function to return the Choice token address for setting up MetaMask
@@ -32,8 +27,4 @@ contract SimpleGame {
         return address(choiceToken);
     }
     
-    // Optional: If you want to allow direct ETH sending without a function call
-    receive() external payable {
-        ethBalances[msg.sender] += msg.value;
-    }
 }
