@@ -12,6 +12,8 @@ Smart Contract Token Address: 0x72b423d98d98d509e66e9c565873c3e63ee4c7ab
 
 # Failed Deployed Contracts
 
+[0xb248d5c780CF2a61076E0Da469aD8b12eD5Bac61](https://sepolia.basescan.org/address/0xb248d5c780cf2a61076e0da469ad8b12ed5bac61#tokentxns)
+
 0xd1E5d09b4BA8C0e2aC257f75f6a137A7b186BbeA
 
 0x6f1824130Dd5384a921f9cD130c8f6F10E9957D5
