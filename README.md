@@ -6,18 +6,18 @@ Repository for building Choice software on Base. [Project Roadmap.](https://medi
 
 [Application](https://www.decentralized-decisions.app/)
 
-# Project Goals
+# Project Goals (Completed)
 
 1. Launch Choice Coin asset on Base.
 2. Build Application with choice capability.
 
-# Application Functional Requirements
+# Application Functional Requirements (Completed)
 
-1. Allow users to connect via MetaMask and Rabby.
+1. Allow users to connect via MetaMask.
 2. Present users with a binary choice, where one choice is correct.
 3. Have a mechanism for rewarding the users that make the correct choice.
 
-# Build Process
+# Build Process (Completed)
 1. Create base react app.
 2. Add front-end UI.
 3. Build back-end infra.
@@ -36,7 +36,10 @@ Repository for building Choice software on Base. [Project Roadmap.](https://medi
 
 # Wallet Information
 
-[Rabby Wallet](https://rabby.io/)
-
 [Metamask](https://metamask.io/) 
+
+# Docs
+
+[Solidity Docs](https://docs.soliditylang.org/en/latest/index.html)
+
 
